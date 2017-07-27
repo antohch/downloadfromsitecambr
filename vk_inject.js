@@ -1,6 +1,6 @@
 (function (){	
 
-  var spanUk = document.getElementsByClassName('uk')[0].children[1];
+  var spanUk = document.getElementsByClassName('us')[0].children[1];
   var link = spanUk.getAttribute('data-src-mp3');
    
   window.downloadFile = function (sUrl) {
