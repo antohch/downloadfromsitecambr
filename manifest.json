@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Скачать аудио транскрипции",
+  "description": "Скачивает аудио транскрипции",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["*://dictionary.cambridge.org/*"],
+      "js": ["vk_inject.js"],
+      "css": ["vk_styles.css"]
+    }
+  ]
+}
